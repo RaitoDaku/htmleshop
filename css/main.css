@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  position: relative;
+  margin: 0px;
+}
+
+body {
+  background-color: black, #3AC1B3;
+  font-family: 'Roboto Condensed', 'Open Sans', 'Arial';
+  font-size: 15px;
+  color: #AFAFAF;
+  line-height: 24px
+}
+
+
+a {
+  text-decoration: none;
+  color: #AFAFAF;
+  transition: color 0.3s ease-in;
+}
+
+a:hover{
+  color: #3CC395;
+}
+
+img{
+  max-width: 100%;
+}
+/*
+  sodksodksodksodksodk
+*/
+.mainContainer {
+  position: relative;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.sectionContent {
+  display: inline-block;
+  width: 1000px;
+  border: 2px solid #000;
+}
+
+#logo {
+  float: left;
+}
+
+#topCart{
+  float: right;
+}
+
+#topSearch {
+
+  display: inline-block;+
+}
+
+#mainSiteNavigation{
+  display: table;
+}
